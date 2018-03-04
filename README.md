@@ -9,8 +9,8 @@
   * `tar -jxf u-boot-latest.tar.bz2`
 
 ## Сборка u-boot
-  * `make ARCH=arm CROSS_COMPILE=aarch64-linux-gnu- clean`
-  * `make ARCH=arm CROSS_COMPILE=aarch64-linux-gnu- distclean`
+  * `make CROSS_COMPILE=aarch64-linux-gnu- clean`
+  * `make CROSS_COMPILE=aarch64-linux-gnu- distclean`
   * `make CROSS_COMPILE=aarch64-linux-gnu- rpi_3_defconfig`
   * `make CROSS_COMPILE=aarch64-linux-gnu-`
 
