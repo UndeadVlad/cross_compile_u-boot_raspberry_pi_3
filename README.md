@@ -1,4 +1,3 @@
-# cross_compile_u-boot_raspberry_pi_3
 
 ## **Установка необходимых пакетов для компиляции u-boot**
   * `sudo apt-get install gcc-aarch64-linux-gnu`
